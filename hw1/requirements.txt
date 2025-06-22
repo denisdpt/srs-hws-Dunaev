@@ -1,6 +1,0 @@
-fastapi
-uvicorn[standard]
-spacy
-ru-core-news-sm
-keybert
-sentence-transformers
