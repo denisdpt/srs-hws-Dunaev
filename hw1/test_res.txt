@@ -1,0 +1,28 @@
+C:\Users\Denis\vs-code\srs-hws\hw1>python test_service.py
+=== NER ===
+{
+  "entities": [
+    "BitLocker",
+    "Microsoft",
+    "Neowin",
+    "OneDrive",
+    "Reddit deus03690",
+    "microsoft"
+  ]
+}
+
+=== Keywords ===
+{
+  "keywords": [
+    "onedrive",
+    "шифрования",
+    "заблокирована",
+    "доступ",
+    "доступа"
+  ]
+}
+
+=== Embedding ===
+{'embedding': [0.01921357586979866, 0.022791486233472824, -0.13384729623794556, -0.13150572776794434, 0.005611469969153404, -0.009744178503751755, -0.11825759708881378, 0.08967453986406326, 0.024009641259908676, -0.19904720783233643], 'length': 384}
+
+C:\Users\Denis\vs-code\srs-hws\hw1>
