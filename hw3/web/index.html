@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Roadmap Viewer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 id="area"></h1>
+  <div id="topics"></div>
+
+  <script>
+  fetch('roadmap.json')
+    .then(r=>r.json())
+    .then(data=>{
+      document.getElementById('area').textContent = 'Роадмап: '+data.area;
+      const container = document.getElementById('topics');
+      data.topics.forEach(t=>{
+        const div = document.createElement('div');
+        div.className = 'topic';
+        div.innerHTML = `
+          <h2>${t.title}</h2>
+          <p>${t.description}</p>
+          <ul class="keywords">${t.keywords.map(k=>`<li>${k}</li>`).join('')}</ul>
+          ${t.subtopics?.length
+            ? '<h3>Подтемы:</h3><ul>'+t.subtopics.map(st=>`
+                <li>
+                  <strong>${st.title}</strong>
+                  <p>${st.description}</p>
+                  <ul class="keywords">${st.keywords.map(k=>`<li>${k}</li>`).join('')}</ul>
+                </li>
+              `).join('')+'</ul>'
+            : ''
+          }
+        `;
+        container.append(div);
+      });
+    });
+  </script>
+</body>
+</html>

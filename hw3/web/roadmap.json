@@ -1,0 +1,165 @@
+{
+  "area": "Frontend-разработка",
+  "topics": [
+    {
+      "title": "HTML и CSS",
+      "description": "Основы разметки и стилизации веб-страниц",
+      "keywords": ["HTML", "CSS", "разметка", "стили", "семантика"],
+      "subtopics": [
+        {
+          "title": "Семантическая разметка",
+          "description": "Использование семантических тегов для улучшения доступности и SEO",
+          "keywords": ["header", "footer", "article", "доступность", "SEO"]
+        },
+        {
+          "title": "Flexbox и Grid",
+          "description": "Современные модели компоновки страниц для гибких макетов",
+          "keywords": ["flexbox", "grid", "layout", "responsive"]
+        },
+        {
+          "title": "Адаптивная верстка",
+          "description": "Техники медиа-запросов и резинных макетов для разных устройств",
+          "keywords": ["media queries", "responsive", "mobile-first", "viewport"]
+        },
+        {
+          "title": "Препроцессоры CSS",
+          "description": "SCSS, LESS и их преимущества для ускорения разработки",
+          "keywords": ["Sass", "LESS", "переменные", "миксины"]
+        },
+        {
+          "title": "Оптимизация CSS",
+          "description": "Минификация, критический CSS и удаление неиспользуемых стилей",
+          "keywords": ["minification", "critical CSS", "PurifyCSS", "performance"]
+        }
+      ]
+    },
+    {
+      "title": "JavaScript",
+      "description": "Язык программирования для поведения и логики веб-страниц",
+      "keywords": ["JavaScript", "ES6+", "DOM", "асинхронность"],
+      "subtopics": [
+        {
+          "title": "Основы JavaScript",
+          "description": "Переменные, типы, функции и область видимости",
+          "keywords": ["let", "const", "var", "функции", "замыкания"]
+        },
+        {
+          "title": "Работа с DOM",
+          "description": "Манипуляция документом и обработка событий",
+          "keywords": ["document", "querySelector", "addEventListener"]
+        },
+        {
+          "title": "Асинхронность и промисы",
+          "description": "Колбэки, Promise и синтаксис async/await",
+          "keywords": ["callback", "Promise", "async", "await"]
+        },
+        {
+          "title": "Модули ES6",
+          "description": "Импорт/экспорт модулей и сборщики",
+          "keywords": ["import", "export", "webpack", "rollup"]
+        },
+        {
+          "title": "Тестирование JavaScript",
+          "description": "Юнит- и интеграционные тесты для фронтенда",
+          "keywords": ["Jest", "Mocha", "Chai", "тесты"]
+        }
+      ]
+    },
+    {
+      "title": "Фреймворки и библиотеки",
+      "description": "Популярные инструменты для ускорения разработки интерфейсов",
+      "keywords": ["React", "Vue", "Angular", "Svelte"],
+      "subtopics": [
+        {
+          "title": "React",
+          "description": "Библиотека для построения UI-компонентов",
+          "keywords": ["components", "hooks", "JSX", "state", "props"]
+        },
+        {
+          "title": "Vue.js",
+          "description": "Прогрессивный фреймворк MVVM для веб-приложений",
+          "keywords": ["Vue", "компоненты", "директивы", "computed"]
+        },
+        {
+          "title": "Angular",
+          "description": "Полноценный фреймворк от Google на TypeScript",
+          "keywords": ["TypeScript", "RxJS", "DI", "CLI"]
+        },
+        {
+          "title": "Svelte",
+          "description": "Компилятор UI-компонентов без виртуального DOM",
+          "keywords": ["Svelte", "компиляция", "реактивность"]
+        },
+        {
+          "title": "State Management",
+          "description": "Управление состоянием через Redux, Vuex или MobX",
+          "keywords": ["Redux", "Vuex", "MobX", "store"]
+        }
+      ]
+    },
+    {
+      "title": "Tooling и сборка",
+      "description": "Инструменты для разработки, сборки и деплоя фронтенда",
+      "keywords": ["Webpack", "Babel", "NPM", "Yarn", "CLI"],
+      "subtopics": [
+        {
+          "title": "Сборщики модулей",
+          "description": "Webpack и Rollup для упаковки кода",
+          "keywords": ["Webpack", "Rollup", "загрузчики", "плагины"]
+        },
+        {
+          "title": "Трансляция кода",
+          "description": "Babel и полифилы для поддержки старых браузеров",
+          "keywords": ["Babel", "polyfill", "preset-env"]
+        },
+        {
+          "title": "Менеджеры пакетов",
+          "description": "NPM, Yarn и PNPM для управления зависимостями",
+          "keywords": ["npm", "yarn", "pnpm", "package.json"]
+        },
+        {
+          "title": "Task Runner",
+          "description": "Gulp и Grunt для автоматизации задач",
+          "keywords": ["Gulp", "Grunt", "таски", "автоматизация"]
+        },
+        {
+          "title": "DevServer и HMR",
+          "description": "Настройка живой перезагрузки и горячей замены модулей",
+          "keywords": ["webpack-dev-server", "HMR", "live reload"]
+        }
+      ]
+    },
+    {
+      "title": "Оптимизация и безопасность",
+      "description": "Практики повышения производительности и защиты приложений",
+      "keywords": ["performance", "security", "CSP", "Lighthouse"],
+      "subtopics": [
+        {
+          "title": "Оптимизация производительности",
+          "description": "Ленивая загрузка, code splitting и кеширование",
+          "keywords": ["lazy loading", "code splitting", "preload", "cache"]
+        },
+        {
+          "title": "Безопасность браузера",
+          "description": "Политики CSP, защита от XSS и CSRF",
+          "keywords": ["CSP", "XSS", "CSRF", "sanitize"]
+        },
+        {
+          "title": "SEO и доступность",
+          "description": "Улучшение видимости и UX через семантику и ARIA",
+          "keywords": ["SEO", "a11y", "ARIA", "семантика"]
+        },
+        {
+          "title": "Аналитика и мониторинг",
+          "description": "Lighthouse и Web Vitals для оценки качества",
+          "keywords": ["Lighthouse", "FCP", "LCP", "CLS"]
+        },
+        {
+          "title": "Progressive Web Apps",
+          "description": "Сервис-воркеры, манифест и оффлайн-режим",
+          "keywords": ["PWA", "service worker", "offline", "manifest"]
+        }
+      ]
+    }
+  ]
+}

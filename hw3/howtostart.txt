@@ -1,0 +1,5 @@
+cd web
+
+py -3 -m http.server 8080
+
+browser => http://localhost:8080/

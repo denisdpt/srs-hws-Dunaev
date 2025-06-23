@@ -1,0 +1,4 @@
+body { font-family: sans-serif; padding: 20px; background: #f0f2f5; }
+.topic { background:#fff; margin:20px 0; padding:20px; border-radius:8px; }
+.keywords { display:flex; flex-wrap:wrap; list-style:none; padding:0; }
+.keywords li { background:#e0e7ff; color:#1e40af; margin:4px; padding:4px 8px; border-radius:4px; }
